@@ -36,6 +36,7 @@
                 </tr>
             </tbody>
         </table>
+        @include('/components/foot-menu')
     </footer>
     </div>
     <script src="/js/app.js"></script>

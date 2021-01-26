@@ -6,9 +6,6 @@ html{
     color: white;
 }
 
-textarea:focus, input:focus{ 
-    border: none; }
-
 #primary,#son{
     display: flex;
     flex-direction: column;
