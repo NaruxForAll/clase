@@ -15,9 +15,13 @@ textarea:focus, input:focus{
 }
 table,input,button,tr{
     margin: 10px;
+    border-collapse: collapse
 }
 tr{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid black;
+}
+td,th{
+    padding: 8px 8px;
 }
 form{
     display: flex;
