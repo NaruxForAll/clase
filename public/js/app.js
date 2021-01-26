@@ -1842,7 +1842,8 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-console.log("funciono");
+var title1 = document.getElementsByName("title1").value;
+console.log(title1);
 
 /***/ }),
 
