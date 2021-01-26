@@ -2,7 +2,8 @@ html{
     padding: 0;
     margin: 0;
     max-width: 100%;
-    background: rgb(76, 172, 92);
+    background: rgb(41, 43, 42);
+    color: white;
 }
 
 textarea:focus, input:focus{ 
