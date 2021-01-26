@@ -24,9 +24,9 @@
     <footer>
         <table>
             <thead>
-                <th>Columna 1</th>
-                <th>Columna 2</th>
-                <th>Columna 3</th>
+                <th>Columna</th>
+                <th>Columna</th>
+                <th>Columna</th>
                 <th>Editar</th>
                 <th>Eliminar</th>
             </thead>
@@ -40,7 +40,7 @@
                 </tr>
             </tbody>
         </table>
-        @include('/components/foot-menu')
+        {{-- @include('/components/foot-menu') --}}
     </footer>
     </div>
     <script src="/js/app.js"></script>
