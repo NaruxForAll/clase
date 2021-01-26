@@ -16,7 +16,6 @@
             <input name="" type="text" placeholder="Texto de prueba"> 
             <input name="" type="text" placeholder="Texto de prueba"> 
             <input name="" type="text" placeholder="Texto de prueba"> 
-            <input name="" type="text" placeholder="Texto de prueba">
         </form>
         <div id="son">
         <button id="">Enviar</button>
