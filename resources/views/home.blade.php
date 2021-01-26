@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/home.css" media="screen" />
 </head>
 <body>
+    <div id="primary">
     <header>
         <div><h1>Formulario Base</h1></div>
     </header>
@@ -19,5 +20,6 @@
         </form>
         <button id="">Enviar</button>
     </main>
+    </div>
 </body>
 </html>
