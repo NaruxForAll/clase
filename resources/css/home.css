@@ -4,6 +4,10 @@ html{
     max-width: 100%;
     background: rgb(76, 172, 92);
 }
+
+textarea:focus, input:focus{ 
+    border: none; }
+    
 #primary,#son{
     display: flex;
     flex-direction: column;
@@ -18,5 +22,13 @@ input{
     margin: 10px;
     padding: 10px 6px;
     border-radius: 20px;
+    border-width: 0px;
+}
+
+button{
+    background-color: deepskyblue;
+    padding: 8px 25px;
+    margin: 10px;
+    border-radius: 15px;
     border-width: 0px;
 }
