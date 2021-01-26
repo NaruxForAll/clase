@@ -18,6 +18,9 @@ table,input,button,tr{
     margin: 10px;
     border-collapse: collapse
 }
+table{
+    margin: 0;
+}
 tr{
     border-bottom: 1px solid black;
 }
