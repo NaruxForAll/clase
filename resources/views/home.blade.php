@@ -29,7 +29,7 @@
                 <th>Columna 2</th>
                 <th>Columna 3</th>
             </thead>
-            <tbody>
+            <tbody id="data">
                 <tr>
                     <td>Dato C1</td>
                     <td>Dato C2</td>
