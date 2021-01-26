@@ -14,9 +14,9 @@
     </header>
     <main>
         <form action="" method="get">
-            <input name="title1" type="text" placeholder="Texto de prueba"> 
-            <input name="title2" type="text" placeholder="Texto de prueba"> 
-            <input name="title3" type="text" placeholder="Texto de prueba"> 
+            <input id="title1" type="text" placeholder="Texto de prueba"> 
+            <input id="title2" type="text" placeholder="Texto de prueba"> 
+            <input id="title3" type="text" placeholder="Texto de prueba"> 
         </form>
         <div id="son">
         <button id="send">Enviar</button>
