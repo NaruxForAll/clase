@@ -13,12 +13,12 @@
     </header>
     <main>
         <form action="" method="get">
-            <input name="" type="text" placeholder="Texto de prueba"> 
-            <input name="" type="text" placeholder="Texto de prueba"> 
-            <input name="" type="text" placeholder="Texto de prueba"> 
+            <input name="title1" type="text" placeholder="Texto de prueba"> 
+            <input name="title2" type="text" placeholder="Texto de prueba"> 
+            <input name="title3" type="text" placeholder="Texto de prueba"> 
         </form>
         <div id="son">
-        <button id="">Enviar</button>
+        <button id="send">Enviar</button>
         <div>
     </main>
     <footer>
