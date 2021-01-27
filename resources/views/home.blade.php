@@ -12,7 +12,7 @@
         <div><h1>Formulario Base</h1></div>
     </header>
     <main>
-        <form action="" method="get">
+        <form id="form" action="" method="get">
             <input id="title1" type="text" placeholder="Texto de prueba"> 
             <input id="title2" type="text" placeholder="Texto de prueba"> 
             <input id="title3" type="text" placeholder="Texto de prueba"> 
