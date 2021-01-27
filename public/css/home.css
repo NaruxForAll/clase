@@ -6,6 +6,30 @@ html{
     color: white;
 }
 
+
+/* Sticky Menu bottom */
+#foot-menu{
+    padding: 15px;
+    overflow: hidden;
+    background: #515452;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    border-top: 1px solid rgb(136, 138, 137);
+    box-shadow:rgb(136, 138, 137);
+    /* Aplicamos Flex */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+}
+/*  */
+
+
+
+
 #primary,#son{
     display: flex;
     flex-direction: column;

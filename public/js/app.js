@@ -1849,11 +1849,38 @@ document.getElementById("send").addEventListener("click", function () {
 
   if (title1 != "" && title2 != "" && title3 != "") {
     var form = new FormData(document.getElementById("form"));
+    fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: form
+    });
     console.log(form);
     document.getElementById("data").innerHTML += "<tr><td>" + title1 + "</td>" + "<td>" + title2 + "</td>" + "<td>" + title3 + "</td></tr>";
   } else {
     alert("Te has dejado algún campo vacío");
   }
+});
+document.getElementById("edit").addEventListener("click", function () {
+  var form = new FormData(document.getElementById("form"));
+  fetch(url, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: form
+  });
+  console.log("funciona");
+});
+document.getElementById("delete").addEventListener("click", function () {
+  fetch(url, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+  console.log("funciona");
 });
 
 /***/ }),
