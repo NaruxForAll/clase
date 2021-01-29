@@ -12,11 +12,10 @@
         <div><h1>Formulario Base</h1></div>
     </header>
     <main>
-        <form id="form" action="" method="get">
+        <form id="form" action="{{route('posts_store')}}" method="get">
         {{ csrf_field()}}
-            <input id="title1" name="title1" type="text" placeholder="Texto de prueba"> 
-            <input id="title2" name="title2" type="text" placeholder="Texto de prueba"> 
-            <input id="title3" name="title3" type="text" placeholder="Texto de prueba"> 
+            <input id="title" name="title" type="text" placeholder="Texto de prueba"> 
+            <input id="content" name="content" type="text" placeholder="Texto de prueba"> 
         </form>
         <div id="son">
         <button id="send">Enviar</button>
