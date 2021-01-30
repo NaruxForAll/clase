@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use Illuminate\Support\Facades\view;
 
 class PostController extends Controller
 {
@@ -27,7 +28,15 @@ class PostController extends Controller
             'content' => request('content') 
         ]);
 
+        $view = View::make('posts')
+        ->with('post' , $post)
+        ->with('posts' , $this->post->get())
+        ->renderSections();
+
+        return response()->json([
+            'table' => $view['table'],
+            'form' => $view['form'], 
+        ]);
+
     }
-
-
 }

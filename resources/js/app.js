@@ -14,6 +14,7 @@ document
   const sendPostRequest = async() => {
     try {
       const resp = await axios.post(url, data);
+      console.log(resp.data.table)
     } catch (err) {
 
     }
