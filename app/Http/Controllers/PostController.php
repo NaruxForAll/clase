@@ -10,7 +10,7 @@ class PostController extends Controller
 {
     protected $post;
 
-    function __construct (Post $post)
+    function __construct (post $post)
     {
         $this->post = $post;
 
