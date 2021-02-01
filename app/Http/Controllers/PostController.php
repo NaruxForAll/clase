@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\post;
-use Illuminate\Support\Facades\view;
+use App\Models\Post;
+use Illuminate\Support\Facades\View;
 
 class PostController extends Controller
 {
     protected $post;
 
-    function __construct (post $post)
+    function __construct (Post $post)
     {
         $this->post = $post;
 
