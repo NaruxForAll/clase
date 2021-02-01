@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('form');
+    return view('home');
 });
 
 Route::resource('posts', 'App\Http\Controllers\PostController' , [
