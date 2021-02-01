@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('/posts', 'App\Http\Controllers\PostController', [
+Route::resource('posts', 'App\Http\Controllers\PostController', [
     'names' => [
         'index' => 'posts',
         'create' => 'posts_create',
